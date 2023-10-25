@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body {
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+    transition: all 0.8s;
+    background-color: #d4d4d4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    text-align: center;
+}
+
+.name {
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+}
+
+.space {
+    margin-top: 10px;
+}
+
+.spacev2 {
+    margin-top: 40px;
+}
+
+.label, .change-location input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card-move-down {
+    margin-top: 50px;
+}
+
+.details h5 {
+    white-space: nowrap;
+    overflow: visible;
+}
+.title{
+    font-size: 50pt;
+    white-space: nowrap;
+    color: rgb(57, 68, 119);
+
+}
